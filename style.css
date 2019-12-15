@@ -91,3 +91,25 @@ h2 {
 section h2 + p {
   text-indent: 2rem;
 }
+
+/* Used paletton.com for colors. Palette URL: http://paletton.com/#uid=4000u0kcOll3lnk7ylYjclvr8mE */
+a {
+  color: #AB4444;
+  outline: none;
+}
+a[href*="http"] {
+  background: url('external-link-52.png') no-repeat 100%;
+  background-size: 1rem;
+  background-position: bottom 0.5rem right;
+  padding-right: 1.2rem;
+}
+a:hover,
+a:focus {
+  color: #296767;
+  text-decoration: none;
+}
+a:active {
+  background: #296767;
+  color: white;
+  text-decoration: none;
+}
